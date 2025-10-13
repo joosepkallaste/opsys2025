@@ -1,5 +1,5 @@
 # Praktikum 4 - Windowsi seadistamine ja turvalisus
-Selles praktikumis õppisin Windowsi seadistamine ja turvalisus kohta. värskendasin Windowsi, kontrollisin turvalisust ja privaatsus sätteid. Võrreldes eelnevate praktikumidega tundus see mahuka ning võttis kauem aega.
+Selles praktikumis õppisin Windowsi seadistamise ja turvalisuse kohta. Värskendasin Windowsi, kontrollisin turvalisust ja privaatsus sätteid. Võrreldes eelnevate praktikumidega tundus see mahukam ning võttis kauem aega.
 
 Võrreldes Administrator ja SYSTEM privileege:
 Administratoril on piiratud hulk õigusi ning ta saab süsteemi mõjutada ainult kasutaja tasemel.
