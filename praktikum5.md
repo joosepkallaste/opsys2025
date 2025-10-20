@@ -1,3 +1,5 @@
+# Praktikum 5 Failiõigused Linuxis
+Selles praktikumis uurisin lähemalt Linux failiõiguste kohta. Sain õppida: kuidas failiõigusi muuta ja ligipääsu lisada teistele kasutajatele. Lisaks sain uusi teadmisi Linuxi turvapraktika kohta ning õppisin lisaks ka Github.md vormistamise kohta. Praktikum võttis umbes 6 tundi aega ja oli üpris raske.\
 5.1\
 a) chmod u+rx /tmp/kaust\
    chmod u+r /tmp/kaust/minufail.txt\
@@ -32,6 +34,6 @@ group:direktor:rw-
 mask::rw-
 other::---
 ```
-5.9
+5.9\
 Ainult root kasutaja saab faili atribuute muuta või eemaldada. Faili saab kustutada siis kui kõigepealt eemaldad immutable atribuudi. (sudo chattr -i testfail-2, 
 sudo rm testfail-2)
