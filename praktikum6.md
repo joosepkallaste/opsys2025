@@ -1,13 +1,13 @@
 # Praktikum 6 - Protsessid ja signaalid
 Käes olevas praktikumis õppisin protsesside ja signaalide kohta. Praktikum aitas mõista, kuidas operatsioonisüsteemid suhtlevad programmidega, kuidas protsessid ja sündmused süsteemitasandil edastatakse ning kuidas neid saab käsurea tööriistade abil analüüsida ja juhtida.
 ## 5.1
-<img width="1361" height="890" alt="image" src="https://github.com/user-attachments/assets/de8038b2-56a9-4fb7-8708-05022b3a7ac4" />\
+<img width="1361" height="890" alt="image" src="https://github.com/user-attachments/assets/de8038b2-56a9-4fb7-8708-05022b3a7ac4" />
 ## 5.2
-<img width="1365" height="891" alt="be7342bc-c9aa-458a-8d3b-2b73d29eda9c" src="https://github.com/user-attachments/assets/81d8e503-ac6c-4b15-8b9d-97465699a450" />\
+<img width="1365" height="891" alt="be7342bc-c9aa-458a-8d3b-2b73d29eda9c" src="https://github.com/user-attachments/assets/81d8e503-ac6c-4b15-8b9d-97465699a450" />
 ## 5.3
 <img width="1367" height="899" alt="image" src="https://github.com/user-attachments/assets/8e580663-8555-4f72-941c-8e970117be09" />
 ## 5.4
-**`ip a | grep inet | grep -v inet6 | awk '{print $2}' | cut -d'/' -f1 | grep -v '^127\.'`**
+`ip a | grep inet | grep -v inet6 | awk '{print $2}' | cut -d'/' -f1 | grep -v '^127\.'`
 
 
 <img width="1367" height="866" alt="ad7e8d54-d4d3-4b09-a54f-c8cf2e952b62" src="https://github.com/user-attachments/assets/cab7b69e-1d87-4919-a993-a4259def182b" />
