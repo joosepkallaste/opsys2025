@@ -1,5 +1,5 @@
 # Praktikum 6 - Protsessid ja signaalid
-Käes olevas praktikumis õppisin protsesside ja signaalide kohta. 
+Käes olevas praktikumis õppisin protsesside ja signaalide kohta. Praktikum aitas mõista, kuidas operatsioonisüsteemid suhtlevad programmidega, kuidas protsessid ja sündmused süsteemitasandil edastatakse ning kuidas neid saab käsurea tööriistade abil analüüsida ja juhtida.
 ## 5.1
 <img width="1361" height="890" alt="image" src="https://github.com/user-attachments/assets/de8038b2-56a9-4fb7-8708-05022b3a7ac4" />\
 ## 5.2
