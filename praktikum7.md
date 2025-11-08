@@ -1,4 +1,5 @@
 # Praktikum 7 - Haakimine
+Praktikumis õppisin USB-andmekandjaid Linuxis käsitsi haakima ja uurisin nende partitsioonistruktuuri. Vaatlesin, miks uued kettad vajavad lähtestamist, ning võrdlesin GPT ja MBR partitsiooniskeeme. Kasutasin mount käsu erinevaid parameetreid, mille abil Ubuntu tuvastas faili­süsteemi tüübi automaatselt (vfat). Kokkuvõttes sain praktilise kogemuse failisüsteemide tuvastamise ja andmekandjate ühendamisega.
 ## 1. Miks uued andmekandjad vajavad lähtestamist?
 
 Uutel andmekandjatel puudub toimiv partitsioonitabel, mistõttu operatsioonisüsteem ei tea, kuidas ketta sektoreid struktuuriks jagada. Lähtestamine loob vajaliku skeemi (nt GPT), mille abil saab OS luua partitsioone ja vormindada need failisüsteemiga. Lisaks eemaldab lähtestamine võimalikud vanad või vigased metaandmed, mis takistaksid ketta korrektset kasutamist.
