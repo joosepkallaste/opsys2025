@@ -20,3 +20,38 @@ Vabastatud kettamaht: ~286 MB
 <img width="1282" height="930" alt="c3652edb-b6d9-4708-ab42-d4c0296f0bba" src="https://github.com/user-attachments/assets/1351d7b6-9a66-4d8c-a8ec-7b2915463a89" />
 
 
+---
+
+## 4.
+<img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/3bc57dad-d10d-4ba3-980e-b76626d710c4" />
+
+
+---
+
+## 5. 
+Kui sama EXE-fail on nii kasutaja PATH-is kui ka süsteemi PATH-is, siis käivitatakse see fail kasutaja PATH-is olevast kaustast.  
+Põhjus: Windows otsib käsuviibas programme PATH-muutuja loetelus ülevalt alla ning kasutaja PATH on kõrgema prioriteediga kui süsteemi PATH.
+Seega kui fail leidub mõlemas, siis alati käivitatakse kasutaja PATH versioon.
+
+---
+
+## 6.
+KtmRm for Distributed Transaction Coordinator (Service name: KtmRm) teenus toetab Kernel Transaction Manageri funktsioone, võimaldades süsteemil ja rakendustel teha tehingupõhiseid (transactional) operatsioone NTFS failisüsteemis ja COM+ teenustes.  
+Virtuaalmasinas ei kasuta süsteem neid funktsioone, seega teenuse töötamine ei ole vajalik. Teenuse käivitustüübi võib turvaliselt määrata “Disabled”, kuna see ei mõjuta süsteemi normaalset tööd VM-is.  
+Tavalises koduarvutis ei ole selle teenuse töötamine üldiselt vajalik, sest enamik kasutajaprogramme ei kasuta KTM transaktsioone.  
+Teenuse võib tehniliselt panna Disabled, ilma et Windowsi igapäevane kasutus kannataks.  
+Kuid enterprise tasemel rakendused (COM+, DTC, vanemad serveri komponendid) võivad seda vajada, mistõttu ei ole keelamine soovitatav ärikriitilises süsteemis. Tavalise kasutaja arvutis võib selle siiski ohutult välja lülitada.
+
+
+---
+
+
+## 7.
+<img width="1155" height="826" alt="image" src="https://github.com/user-attachments/assets/ee59cdff-e796-43a6-9ffb-8ab4ae035a11" />
+
+
+---
+
+## 8.
+<img width="1129" height="737" alt="image" src="https://github.com/user-attachments/assets/1b85e7d7-279b-4019-a5a8-db2dbf6aa1cf" />
+
