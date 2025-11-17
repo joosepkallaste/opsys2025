@@ -1,4 +1,11 @@
-# Praktikum 9 - Teenused ja optimeerimine
+# Praktikum 9 - Teenused ja optimeerimine  
+
+
+---
+
+
+Selles praktikumis õppisin, kuidas Linuxis ja Windowsis kasutada süsteemi- ja protsessihalduse põhikäsklusi, kuidas alias -i teha mis lihtsustaks tööd, kuidas lisada ja eemaldada teenuseid. Lisaks uuendasin Ubuntut. Üleüldse leidsin praktikumist palju kaulike teadmisi. Praktikum võttis aega ~6 tundi. 
+
 
 ---
 
