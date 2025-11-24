@@ -1,6 +1,8 @@
 # Praktikum 10 – ressursihaldus
 
 ---
+Selles praktikumis õppisin kasutama operatsioonisüsteemi sisseehitatud tööriistu, et tuvastada protsesside ressursikasutust, mäluseisu, ketta- ja võrgukoormust ning analüüsida süsteemi jõudlust nii Linuxis kui ka Windowsis. Praktikum võttis ligikaudu 7h.
+---
 
 | **Küsimus** | **Linux** | **Windows** | **Linuxis kasutatud käsk** | **Windowsis kasutatud tööriist** |
 |--------|---------|---------|--------|---------|
