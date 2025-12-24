@@ -1,14 +1,14 @@
 # Praktikum 14 - Skriptimine Windowsis
 ---
-
+Käesolevas praktikumis õppisin Windows skriptimist ja selle eripärasid. Kasutasin peamiselt PowerShell ISE -d, katsetasin ka tavalise PowerShelliga. Praktikum oli huvitav ning oli palju katsetamist just vorminduse poolest.
 ```
 # -------------------------------------------
-# Väljundi abifunktsioon
+# Väljundi abifunktsioon, vormistab $sisu joosepgre_kallaste.out.txt faili.
 # -------------------------------------------
 function valjasta {
     param([string]$nr, [string]$param, $sisu)
 
-    $fail = ".\tulemus.txt"
+    $fail = ".\joosepgre_kallaste.out.txt"
     $aeg  = Get-Date -Format "HH:mm:ss.fff"
 
     if ($null -eq $sisu) {
@@ -32,7 +32,7 @@ function valjasta {
 }
 
 # Puhastan vana tulemuse (et iga jooks ei kuhjaks)
-Remove-Item ".\tulemus.txt" -ErrorAction SilentlyContinue
+Remove-Item ".\joosepgre_kallaste.out.txt" -ErrorAction SilentlyContinue
 
 # -------------------------------------------
 # 1) Hostname, PowerShelli versioon, Windowsi versioon
