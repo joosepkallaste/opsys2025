@@ -1,6 +1,10 @@
 # Praktikum 14 - Skriptimine Windowsis
 ---
 Käesolevas praktikumis õppisin Windows skriptimist ja selle eripärasid. Kasutasin peamiselt PowerShell ISE -d, katsetasin ka tavalise PowerShelliga. Praktikum oli huvitav ning oli palju katsetamist just vorminduse poolest.
+
+---
+
+All olev sisu on failist: joosepgre_kallaste.ps1
 ```
 # -------------------------------------------
 # Väljundi abifunktsioon, vormistab $sisu joosepgre_kallaste.out.txt faili.
