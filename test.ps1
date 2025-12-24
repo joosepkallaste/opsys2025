@@ -197,3 +197,27 @@ valjasta 9 "10 viimasena käivitatud protsessi (Name, PID, StartTime)" $last10
 # -------------------------------------------
 $nowNice = Get-Date -Format "dd.MM.yyyy HH:mm:ss"
 valjasta 10 "Arvuti kuupäev ja kellaaeg" $nowNice
+
+
+
+$gpu = @(Get-CimInstance Win32_VideoController | ForEach-Object {
+    $dd = $null
+    if ($_.DriverDate -is [datetime]) {
+        $dd = $_.DriverDate.ToString("dd.MM.yyyy")
+    }
+    elseif ($_.DriverDate) {
+        try { $dd = ([Management.ManagementDateTimeConverter]::ToDateTime($_.DriverDate)).ToString("dd.MM.yyyy") }
+        catch { $dd = "$($_.DriverDate)" }
+    }
+
+    [PSCustomObject]@{
+        Name              = $_.Name
+        DriverVersion     = $_.DriverVersion
+        DriverDate        = $dd
+        CurrentResolution = if ($_.CurrentHorizontalResolution -and $_.CurrentVerticalResolution) {
+            "$($_.CurrentHorizontalResolution)x$($_.CurrentVerticalResolution)"
+        } else { $null }
+    }
+})
+
+valjasta 4 "Graafikakaardi info (nimi, driver, kuupäev, lahutus)" $gpu
