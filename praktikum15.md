@@ -33,3 +33,13 @@ Selles praktikumis õppisin Azure virtuaalmasinate kohta. Kuidas neid luua ja t�
 
 ## 5.
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/919989be-6427-4dd1-ba32-2e1f87a6d6f4" />
+
+
+---
+
+## 6.
+---
+Käsk mida kasutasin failides parooli leidmiseks: ```grep -Rli --include="*.md" "parool" . | xargs cat```
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ac4d4140-1878-4540-ba20-95a5954839a6" />
+
